@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Exo:200,400');
+* { margin: 0; padding:0; box-sizing: border-box;}
+
+
+header {
+    background-color: #FFF;
+  
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+nav {
+    background-color: FFF;
+    border: 1px white solid;
+    padding: 40px;
+    padding-left: 60px;
+}
+
+#two_column {
+    background-color: #FFF;
+    
+    padding: 20px;
+}
+
+#left {
+    background-color: #FFF;
+  
+    padding: 20px;
+    float: left;
+    width: 35%;
+}
+
+#right {
+    background-color: #FFF;
+   
+    padding: 20px;
+    padding-bottom: 0px;
+    float: right;
+    width: 50%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#main {
+    background-color: #5e6c82;
+    float: left;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+#stripe {
+    padding: 20px;
+    background-color: #d1d3d6;
+}
+
+aside {
+    background-color: #FFF;
+    border: 1px white solid;
+    padding: 20px;
+    padding-left: 20px;
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px white solid;
+    padding: 20px;
+}
+
+section {
+    background-color: #FFF;
+    border: 1px white solid;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Exo', sans-serif;
+    color: #5b88cc;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Exo', sans-serif;
+    color: #f5ccf9;
+    font-weight: 200;
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+p1{
+    color: #5b88cc;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: .6em;
+    padding-left: 20px;
+}
+
+p2{
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: .6em;
+    padding-left: 60px;
+
+}
+
+a {
+    color: blue;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 40;
+    font-size: 20px;
+    line-height: 1.8em;
+    text-decoration: none;
+}
+a:hover {
+    color: #f5ccf9;
+}
+
